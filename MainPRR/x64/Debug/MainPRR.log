@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(172,14): warning C4552: "!=": результат выражения не используется
+C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(249,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(283,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(280,2): warning C4809: в операторе switch имеется ненужная метка "default"; все возможные метки "case" уже заданы
+  MainPRR.vcxproj -> C:\Users\кедровый орех\source\repos\MainPRR\x64\Debug\MainPRR.exe

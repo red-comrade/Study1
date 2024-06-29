@@ -4,6 +4,7 @@
 #include<Windows.h>
 #include <Lmcons.h>
 
+
 using namespace std;
 void switch_c(int* a, int* b) {
 
@@ -114,7 +115,7 @@ void kvadrat(int shirina, int visota) {
 
 
 }
-void min_arr(int size, int arr[]) {
+void min_arr(int size, int *arr) {
 	int min = 0;
 
 
@@ -124,10 +125,15 @@ void min_arr(int size, int arr[]) {
 
 		for (int j = 0; j <= i; j++) {
 			if (min > arr[j]) {
-				min = arr[j];
+				swap(min,arr[j]);
 			}
+
 		}
 	}
+	for (int i = 0; i < size; i++) {
+		cout << arr[i] << " ";
+	}
+	
 	cout << endl << min;
 
 }
@@ -246,6 +252,7 @@ void ShowUserName() {
 	cout << endl;
 
 }
+
 class sys {
 public:
 	bool a = 0;
@@ -353,6 +360,9 @@ int main(int arga, char* argb[]) {
 
 	///////////////////////sysThings
 
+	int arr[]{ 8,1,7,4,3,9,2,5,6,10 };
+	int size = 10;
+	min_arr(size,arr);
 
 	system("pause");
 	return 0;
