@@ -38,7 +38,7 @@ void vivod(int* arr, int ig) {
 		cout << *(arr + i);
 	}
 }
-void newVvod(int* arr2) {
+void newVvod(int*& arr2) {
 	int size = 0;
 	cout << "Введите размер Массива" << endl;
 	cin >> size;
@@ -49,11 +49,12 @@ void newVvod(int* arr2) {
 
 	}
 	for (int j = 0; j < size; j++) {
-		*(arr2 + j) = *(arr + j);
+		arr2[j] = arr[j];
 	}
-	delete[] arr;
+	delete[] arr2;
+	arr2 = arr;
 	for (int g = 0; g < size; g++) {
-		cout << *(arr2 + g) << endl;
+		cout << arr2[g] << endl;
 	}
 }
 void mid_arr(int arr[], int ig) {
@@ -360,10 +361,41 @@ int main(int arga, char* argb[]) {
 
 	///////////////////////sysThings
 
-	int arr[]{ 8,1,7,4,3,9,2,5,6,10 };
-	int size = 10;
-	min_arr(size,arr);
+	int n, k;
+	int tmp;
+	cin >> n;
+	cin>>k;
+	int *max;
+	int *arr = new int[n];
+	
+	
+	for (int i = 0; i < n; i++) {
+		cin >> arr[i];
+	}
+	*max = arr[0];
+	int st = n * 2;
+	for (int i = 0; i < k; i++) {
+		for (int j = 1; j < n; j++) {
+			if (*max < arr[j]) {
+				max = arr+j;
+				
 
-	system("pause");
+			}
+
+		}
+		for (int i = 0; i < n; i++) {
+			if (*max == arr[i]) {
+				tmp = i;
+				break;
+			}
+		}
+		
+		
+
+	}
+	cout << endl << *max;
+	
+	delete[]arr;
+	*arr = NULL;
 	return 0;
 }
