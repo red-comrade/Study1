@@ -1,6 +1,6 @@
 ﻿  main.cpp
-C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(173,14): warning C4552: "!=": результат выражения не используется
-C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(250,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(284,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(281,2): warning C4809: в операторе switch имеется ненужная метка "default"; все возможные метки "case" уже заданы
-C:\Users\кедровый орех\source\repos\MainPRR\MainPRR\main.cpp(375,1): error C4700: использована неинициализированная локальная переменная "max"
+C:\Users\user\Desktop\PR\MainPRR\main.cpp(173,14): warning C4552: "!=": результат выражения не используется
+C:\Users\user\Desktop\PR\MainPRR\main.cpp(250,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\PR\MainPRR\main.cpp(284,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\PR\MainPRR\main.cpp(281,2): warning C4809: в операторе switch имеется ненужная метка "default"; все возможные метки "case" уже заданы
+  MainPRR.vcxproj -> C:\Users\user\Desktop\PR\x64\Debug\MainPRR.exe

@@ -360,42 +360,7 @@ int main(int arga, char* argb[]) {
 
 
 	///////////////////////sysThings
-
-	int n, k;
-	int tmp;
-	cin >> n;
-	cin>>k;
-	int *max;
-	int *arr = new int[n];
 	
 	
-	for (int i = 0; i < n; i++) {
-		cin >> arr[i];
-	}
-	*max = arr[0];
-	int st = n * 2;
-	for (int i = 0; i < k; i++) {
-		for (int j = 1; j < n; j++) {
-			if (*max < arr[j]) {
-				max = arr+j;
-				
-
-			}
-
-		}
-		for (int i = 0; i < n; i++) {
-			if (*max == arr[i]) {
-				tmp = i;
-				break;
-			}
-		}
-		
-		
-
-	}
-	cout << endl << *max;
-	
-	delete[]arr;
-	*arr = NULL;
 	return 0;
 }

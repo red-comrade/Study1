@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u043A\u0435\u0434\u0440\u043E\u0432\u044B\u0439 \u043E\u0440\u0435\u0445\\source\\repos\\MainPRR\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A384C512-0357-4A88-88C0-60D7CECD4A3B}|MainPRR\\MainPRR.vcxproj|C:\\Users\\user\\Desktop\\PR\\MainPRR\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A384C512-0357-4A88-88C0-60D7CECD4A3B}|MainPRR\\MainPRR.vcxproj|solutionrelative:MainPRR\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PR\\MainPRR\\main.cpp",
+              "RelativeDocumentMoniker": "MainPRR\\main.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PR\\MainPRR\\main.cpp",
+              "RelativeToolTip": "MainPRR\\main.cpp",
+              "ViewState": "AQIAAGIBAAAAAAAAAAAAAG0BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-29T16:09:13.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
