@@ -3,6 +3,7 @@
 #include<time.h>
 #include<Windows.h>
 #include <Lmcons.h>
+#include <fstream>
 
 
 using namespace std;
@@ -358,8 +359,33 @@ int main(int arga, char* argb[]) {
 	}
 	(debug.a) ? cout << "/Debug mode/" << endl << endl << endl << endl : (debug.a == 0) ? cout << "/Normal mode/" << endl << endl << endl << endl : cout << "sus";
 
-
+#define dbg
 	///////////////////////sysThings
+	int size;
+	cin >> size;
+	int* arr = new int[size];
+	int n = size;
+	for (int i = 0; i < size; i++) {
+		cin >> arr[i];
+	}
+	/////////////////////////////arr
+	bool sus = true;
+	int gg = 0;
+	while (sus) {
+		!sus;
+		for (int i = 0; i < n-1; i++) {
+			
+			if (arr[i] > arr[i + 1]&&i==n-1) {
+				swap(arr[i], arr[i + 1]);
+				sus;
+			}
+			
+		}
+		gg++;
+		n--;
+	}
+	cout << gg << endl;
+	delete[]arr;
 	
 	
 	return 0;
